@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   app:
-    image: node:16-slim
+    image: node:16
     working_dir: /var/www
     volumes:
       - ./:/var/www
